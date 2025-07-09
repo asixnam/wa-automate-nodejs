@@ -38,7 +38,7 @@
 
 ## Installation and Updating
 
-Use this command to install the library for the first time and to keep the library up to date.
+Use this command to install the library for the first time and to keep it up to date:
 
 ```bash
 > npm i --save @open-wa/wa-automate@latest
@@ -48,7 +48,7 @@ Use this command to install the library for the first time and to keep the libra
 
 ## CLI
 
-Want to convert your WA account to an API instantly? You can now with the CLI. For more details see [Easy API](https://docs.openwa.dev/pages/Getting%20Started/quick-run.html)
+Want to convert your WA account to an API instantly? You can now with the CLI. For more details see [Easy API](https://docs.openwa.dev/docs/get-started/quick-run)
 
 ```bash
 > npx @open-wa/wa-automate --help
@@ -91,17 +91,17 @@ function start(client) {
 
 ## Multi Device Support
 
-We're currently in a weird transitionary period where some people are being forced to adopt Multi Device (MD). Once the transition is complete, the library default will be to turn on MD support. For now, you have to set it yourself explicitly either by using the `--multi-device` flag (with the [CLI](#CLI)) or setting `multiDevice: true` in your config (with your custom code)
+We're currently in a transitional period where some users are being migrated to Multi Device (MD) support. Once the transition is complete, the library default will be to turn on MD support. For now, you have to set it yourself explicitly either by using the `--multi-device` flag (with the [CLI](#cli)) or setting `multiDevice: true` in your config (with your custom code)
 
-### Latest Changes
+## Latest Changes
 
-With the constant updates from WA. It is advisable to always use the latest version of `@open-wa/wa-automate`.
+With the constant updates from WhatsApp, it is advisable to always use the latest version of `@open-wa/wa-automate`. Check the [CHANGELOG](CHANGELOG.md) for the latest updates and breaking changes.
 
    <div align="center">
    <img src="https://raw.githubusercontent.com/open-wa/wa-automate-nodejs/master/release.png"/>
    </div>
 
-### Functions list
+## Functions List
 
 | Function                          | Reference |
 | --------------------------------- | ----------- |
@@ -113,10 +113,10 @@ With the constant updates from WA. It is advisable to always use the latest vers
 | Get groups                        | [getAllGroups](https://docs.openwa.dev/classes/api_Client.Client.html#getAllGroups)
 | Get group members                 | [getGroupMembersId](https://docs.openwa.dev/classes/api_Client.Client.html#getGroupMembersId)
 | Send contact                      | [sendContact](https://docs.openwa.dev/classes/api_Client.Client.html#sendContact)
-| Send Images (image)              | [sendImage](https://docs.openwa.dev/classes/api_Client.Client.html#sendImage)
+| Send images                       | [sendImage](https://docs.openwa.dev/classes/api_Client.Client.html#sendImage)
 | Send media (audio, doc) | [sendFile](https://docs.openwa.dev/classes/api_Client.Client.html#sendFile)
 | Send media (video)  | [Send Videos](https://docs.openwa.dev/pages/How%20to/send-files/send-videos.html)
-| Send stickers                     | [sendStickerfromUrl](https://docs.openwa.dev/classes/api_Client.Client.html#sendStickerFromuUrl)
+| Send stickers                     | [sendStickerFromUrl](https://docs.openwa.dev/classes/api_Client.Client.html#sendStickerFromUrl)
 | Decrypt media (image, audio, doc) | [Decrypt Media](https://docs.openwa.dev/pages/How%20to/decrypt-media.html)
 | Capturing QR Code                 | [Capturing QR Code](https://docs.openwa.dev/pages/The%20Client/launch-events/capture-qr.html)
 | Multiple Sessions                 | [Multiple Sessions](https://docs.openwa.dev/pages/The%20Client/the-client/multiple-sessions.html)
@@ -135,9 +135,9 @@ With the constant updates from WA. It is advisable to always use the latest vers
 
 [Checkout all the available functions here.](https://docs.openwa.dev/classes/api_Client.Client.html)
 
-## Running the demo
+## Running the Demo
 
-You can clone this repo and run the demo, but you will need to use typescript/ts-node:
+You can clone this repo and run the [demo](demo/), but you will need to use typescript/ts-node:
 
 ```bash
 > git clone https://github.com/open-wa/wa-automate-nodejs.git
@@ -165,11 +165,11 @@ If you need paid support, consulting, or just want support/sponsor the ongoing d
 
 ## License
 
-[Hippocratic + Do Not Harm Version 1.0](https://github.com/open-wa/wa-automate-nodejs/blob/master/LICENSE.md)
+[Hippocratic + Do Not Harm Version 1.0](LICENSE.md)
 
 ## Legal
 
-This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by WA or any of its affiliates or subsidiaries. This is an independent and unofficial software. Use at your own risk.
+This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries. This is an independent and unofficial software. Use at your own risk.
 
 ## Cryptography Notice
 
